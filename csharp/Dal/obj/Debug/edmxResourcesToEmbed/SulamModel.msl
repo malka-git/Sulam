@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SulamModel1StoreContainer" CdmEntityContainer="SulamEntities1">
+    <EntitySetMapping Name="authorizations">
+      <EntityTypeMapping TypeName="SulamModel1.authorizations">
+        <MappingFragment StoreEntitySet="authorizations">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="authorizationsDescription" ColumnName="authorizationsDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="City">
+      <EntityTypeMapping TypeName="SulamModel1.City">
+        <MappingFragment StoreEntitySet="City">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Class">
+      <EntityTypeMapping TypeName="SulamModel1.Class">
+        <MappingFragment StoreEntitySet="Class">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="className" ColumnName="className" />
+          <ScalarProperty Name="codeTeacher" ColumnName="codeTeacher" />
+          <ScalarProperty Name="Theyear" ColumnName="Theyear" />
+          <ScalarProperty Name="CodesubstituteTeacher" ColumnName="CodesubstituteTeacher" />
+          <ScalarProperty Name="IsSubsitute" ColumnName="IsSubsitute" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Meetings">
+      <EntityTypeMapping TypeName="SulamModel1.Meetings">
+        <MappingFragment StoreEntitySet="Meetings">
+          <ScalarProperty Name="codeMeeting" ColumnName="codeMeeting" />
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="MeetingDescription" ColumnName="MeetingDescription" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ParameterReport">
+      <EntityTypeMapping TypeName="SulamModel1.ParameterReport">
+        <MappingFragment StoreEntitySet="ParameterReport">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="codeProfessionType" ColumnName="codeProfessionType" />
+          <ScalarProperty Name="codeTypeReport" ColumnName="codeTypeReport" />
+          <ScalarProperty Name="codeParameter" ColumnName="codeParameter" />
+          <ScalarProperty Name="codeCurrentReport" ColumnName="codeCurrentReport" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PersonalFile">
+      <EntityTypeMapping TypeName="SulamModel1.PersonalFile">
+        <MappingFragment StoreEntitySet="PersonalFile">
+          <ScalarProperty Name="codeStudent" ColumnName="codeStudent" />
+          <ScalarProperty Name="medicalBackground" ColumnName="medicalBackground" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="professionType">
+      <EntityTypeMapping TypeName="SulamModel1.professionType">
+        <MappingFragment StoreEntitySet="professionType">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="nameProfession" ColumnName="nameProfession" />
+          <ScalarProperty Name="CodeAuthorization" ColumnName="CodeAuthorization" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Report">
+      <EntityTypeMapping TypeName="SulamModel1.Report">
+        <MappingFragment StoreEntitySet="Report">
+          <ScalarProperty Name="codeCaregiver" ColumnName="codeCaregiver" />
+          <ScalarProperty Name="codeStudent" ColumnName="codeStudent" />
+          <ScalarProperty Name="report1" ColumnName="report" />
+          <ScalarProperty Name="dateToReport" ColumnName="dateToReport" />
+          <ScalarProperty Name="dateReported" ColumnName="dateReported" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Student">
+      <EntityTypeMapping TypeName="SulamModel1.Student">
+        <MappingFragment StoreEntitySet="Student">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="studentName" ColumnName="studentName" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="codeClass" ColumnName="codeClass" />
+          <ScalarProperty Name="birthDate" ColumnName="birthDate" />
+          <ScalarProperty Name="fatherName" ColumnName="fatherName" />
+          <ScalarProperty Name="motherName" ColumnName="motherName" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="celPhone1" ColumnName="celPhone1" />
+          <ScalarProperty Name="celPhone2" ColumnName="celPhone2" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="codeCity" ColumnName="codeCity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="SulamModel1.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Treatment">
+      <EntityTypeMapping TypeName="SulamModel1.Treatment">
+        <MappingFragment StoreEntitySet="Treatment">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="codeCaregiver" ColumnName="codeCaregiver" />
+          <ScalarProperty Name="codeStudent" ColumnName="codeStudent" />
+          <ScalarProperty Name="treatmentDescription" ColumnName="treatmentDescription" />
+          <ScalarProperty Name="grade" ColumnName="grade" />
+          <ScalarProperty Name="treatmentDate" ColumnName="treatmentDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TypeOfParameterToReport">
+      <EntityTypeMapping TypeName="SulamModel1.TypeOfParameterToReport">
+        <MappingFragment StoreEntitySet="TypeOfParameterToReport">
+          <ScalarProperty Name="CodeDescriptionParameter" ColumnName="CodeDescriptionParameter" />
+          <ScalarProperty Name="DescriptionParameter" ColumnName="DescriptionParameter" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="typeReport">
+      <EntityTypeMapping TypeName="SulamModel1.typeReport">
+        <MappingFragment StoreEntitySet="typeReport">
+          <ScalarProperty Name="code" ColumnName="code" />
+          <ScalarProperty Name="discrition" ColumnName="discrition" />
+          <ScalarProperty Name="dateOfReport" ColumnName="dateOfReport" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Workers">
+      <EntityTypeMapping TypeName="SulamModel1.Workers">
+        <MappingFragment StoreEntitySet="Workers">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="workerName" ColumnName="workerName" />
+          <ScalarProperty Name="workerLastName" ColumnName="workerLastName" />
+          <ScalarProperty Name="codeProfession" ColumnName="codeProfession" />
+          <ScalarProperty Name="birthdate" ColumnName="birthdate" />
+          <ScalarProperty Name="cityCode" ColumnName="cityCode" />
+          <ScalarProperty Name="emailAdress" ColumnName="emailAdress" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="WorkersMeeting" TypeName="SulamModel1.WorkersMeeting" StoreEntitySet="WorkersMeeting">
+      <EndProperty Name="Meetings">
+        <ScalarProperty Name="codeMeeting" ColumnName="codeMeeting" />
+      </EndProperty>
+      <EndProperty Name="Workers">
+        <ScalarProperty Name="Code" ColumnName="codeWorker" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,346 @@
+H:\פרויקט גמר\csharp\BLL\bin\Debug\BLL.dll
+H:\פרויקט גמר\csharp\BLL\bin\Debug\BLL.pdb
+H:\פרויקט גמר\csharp\BLL\bin\Debug\Dal.dll
+H:\פרויקט גמר\csharp\BLL\bin\Debug\EntityFramework.dll
+H:\פרויקט גמר\csharp\BLL\bin\Debug\EntityFramework.SqlServer.dll
+H:\פרויקט גמר\csharp\BLL\bin\Debug\Dal.pdb
+H:\פרויקט גמר\csharp\BLL\bin\Debug\Dal.dll.config
+H:\פרויקט גמר\csharp\BLL\bin\Debug\EntityFramework.xml
+H:\פרויקט גמר\csharp\BLL\bin\Debug\EntityFramework.SqlServer.xml
+H:\פרויקט גמר\csharp\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+H:\פרויקט גמר\csharp\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+H:\פרויקט גמר\csharp\BLL\obj\Debug\BLL.csproj.CopyComplete
+H:\פרויקט גמר\csharp\BLL\obj\Debug\BLL.dll
+H:\פרויקט גמר\csharp\BLL\obj\Debug\BLL.pdb
+E:\פרויקט גמר\csharp\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+E:\פרויקט גמר\csharp\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\פרויקט גמר\csharp\BLL\obj\Debug\BLL.dll
+E:\פרויקט גמר\csharp\BLL\obj\Debug\BLL.pdb
+E:\פרויקט גמר\csharp\BLL\bin\Debug\BLL.dll
+E:\פרויקט גמר\csharp\BLL\bin\Debug\BLL.pdb
+E:\פרויקט גמר\csharp\BLL\bin\Debug\Dal.dll
+E:\פרויקט גמר\csharp\BLL\bin\Debug\EntityFramework.dll
+E:\פרויקט גמר\csharp\BLL\bin\Debug\EntityFramework.SqlServer.dll
+E:\פרויקט גמר\csharp\BLL\bin\Debug\Dal.pdb
+E:\פרויקט גמר\csharp\BLL\bin\Debug\Dal.dll.config
+E:\פרויקט גמר\csharp\BLL\bin\Debug\EntityFramework.xml
+E:\פרויקט גמר\csharp\BLL\bin\Debug\EntityFramework.SqlServer.xml
+E:\פרויקט גמר\csharp\BLL\obj\Debug\BLL.csproj.CopyComplete
+G:\csharp\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+G:\csharp\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\‏‏תיקיה חדשה\Desktop\csharp\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+E:\‏‏תיקיה חדשה\Desktop\csharp\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\BLL.dll.config
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\BLL.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\BLL.pdb
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Win32.Primitives.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\netstandard.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.AppContext.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Collections.Concurrent.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Collections.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Collections.NonGeneric.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Collections.Specialized.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.ComponentModel.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.ComponentModel.Primitives.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.ComponentModel.TypeConverter.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Console.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Data.Common.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Diagnostics.Contracts.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Diagnostics.Debug.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Diagnostics.Process.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Diagnostics.StackTrace.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Diagnostics.Tools.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Diagnostics.TraceSource.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Diagnostics.Tracing.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Drawing.Primitives.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Dynamic.Runtime.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Globalization.Calendars.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Globalization.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Globalization.Extensions.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.IO.Compression.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.IO.Compression.ZipFile.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.IO.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.IO.FileSystem.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.IO.FileSystem.Primitives.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.IO.FileSystem.Watcher.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.IO.IsolatedStorage.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.IO.MemoryMappedFiles.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.IO.Pipes.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Linq.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Linq.Expressions.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Linq.Parallel.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Linq.Queryable.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Net.Http.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Net.NameResolution.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Net.NetworkInformation.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Net.Ping.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Net.Primitives.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Net.Requests.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Net.Security.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Net.Sockets.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Net.WebHeaderCollection.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Net.WebSockets.Client.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Net.WebSockets.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.ObjectModel.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Reflection.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Reflection.Extensions.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Reflection.Primitives.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Resources.Reader.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Resources.ResourceManager.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Resources.Writer.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Runtime.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Runtime.Extensions.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Runtime.Handles.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Runtime.InteropServices.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Runtime.Numerics.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Runtime.Serialization.Formatters.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Runtime.Serialization.Json.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Runtime.Serialization.Primitives.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Runtime.Serialization.Xml.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Security.Claims.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Security.Cryptography.Algorithms.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Security.Cryptography.Csp.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Security.Cryptography.Encoding.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Security.Cryptography.Primitives.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Security.Principal.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Security.SecureString.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Text.Encoding.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Text.Encoding.Extensions.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Text.RegularExpressions.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Threading.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Threading.Overlapped.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Threading.Tasks.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Threading.Tasks.Parallel.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Threading.Thread.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Threading.ThreadPool.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Threading.Timer.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.ValueTuple.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Xml.ReaderWriter.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Xml.XDocument.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Xml.XmlDocument.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Xml.XmlSerializer.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Xml.XPath.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Xml.XPath.XDocument.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Dal.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\E.EntityFrameworkCore.Extensions.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\EntityFramework.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\EntityFramework.SqlServer.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.EntityFrameworkCore.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Configuration.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Options.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Remotion.Linq.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Buffers.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Collections.Immutable.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.ComponentModel.Annotations.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Interactive.Async.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Memory.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Numerics.Vectors.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Dal.pdb
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Dal.dll.config
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\EntityFramework.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\EntityFramework.SqlServer.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.EntityFrameworkCore.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Configuration.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Options.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\Remotion.Linq.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Buffers.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Collections.Immutable.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Interactive.Async.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Memory.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Numerics.Vectors.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\obj\Debug\BLL.dll
+E:\‏‏תיקיה חדשה (2)\csharp\BLL\obj\Debug\BLL.pdb
+E:\פרויקט גמר\1\csharp\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+E:\פרויקט גמר\1\csharp\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\פרויקט גמר\1\csharp\BLL\obj\Debug\BLL.dll
+E:\פרויקט גמר\1\csharp\BLL\obj\Debug\BLL.pdb
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\BLL.dll.config
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\BLL.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\BLL.pdb
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Win32.Primitives.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\netstandard.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.AppContext.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Collections.Concurrent.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Collections.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Collections.NonGeneric.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Collections.Specialized.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.ComponentModel.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.ComponentModel.Primitives.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.ComponentModel.TypeConverter.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Console.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Data.Common.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Diagnostics.Contracts.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Diagnostics.Debug.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Diagnostics.Process.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Diagnostics.StackTrace.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Diagnostics.Tools.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Diagnostics.TraceSource.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Diagnostics.Tracing.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Drawing.Primitives.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Dynamic.Runtime.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Globalization.Calendars.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Globalization.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Globalization.Extensions.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.IO.Compression.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.IO.Compression.ZipFile.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.IO.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.IO.FileSystem.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.IO.FileSystem.Primitives.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.IO.FileSystem.Watcher.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.IO.IsolatedStorage.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.IO.MemoryMappedFiles.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.IO.Pipes.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Linq.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Linq.Expressions.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Linq.Parallel.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Linq.Queryable.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Net.Http.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Net.NameResolution.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Net.NetworkInformation.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Net.Ping.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Net.Primitives.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Net.Requests.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Net.Security.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Net.Sockets.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Net.WebHeaderCollection.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Net.WebSockets.Client.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Net.WebSockets.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.ObjectModel.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Reflection.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Reflection.Extensions.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Reflection.Primitives.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Resources.Reader.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Resources.ResourceManager.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Resources.Writer.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Runtime.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Runtime.Extensions.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Runtime.Handles.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Runtime.InteropServices.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Runtime.Numerics.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Runtime.Serialization.Formatters.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Runtime.Serialization.Json.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Runtime.Serialization.Primitives.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Runtime.Serialization.Xml.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Security.Claims.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Security.Cryptography.Algorithms.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Security.Cryptography.Csp.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Security.Cryptography.Encoding.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Security.Cryptography.Primitives.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Security.Principal.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Security.SecureString.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Text.Encoding.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Text.Encoding.Extensions.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Text.RegularExpressions.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Threading.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Threading.Overlapped.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Threading.Tasks.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Threading.Tasks.Parallel.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Threading.Thread.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Threading.ThreadPool.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Threading.Timer.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.ValueTuple.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Xml.ReaderWriter.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Xml.XDocument.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Xml.XmlDocument.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Xml.XmlSerializer.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Xml.XPath.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Xml.XPath.XDocument.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Dal.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\E.EntityFrameworkCore.Extensions.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\EntityFramework.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\EntityFramework.SqlServer.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.EntityFrameworkCore.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Caching.Memory.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Configuration.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Logging.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Options.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Primitives.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Remotion.Linq.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Buffers.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Collections.Immutable.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.ComponentModel.Annotations.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Interactive.Async.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Memory.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Numerics.Vectors.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Dal.pdb
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Dal.dll.config
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\EntityFramework.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\EntityFramework.SqlServer.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.EntityFrameworkCore.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.EntityFrameworkCore.Relational.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Caching.Abstractions.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Caching.Memory.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Configuration.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Logging.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Options.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Microsoft.Extensions.Primitives.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\Remotion.Linq.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Buffers.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Collections.Immutable.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Interactive.Async.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Memory.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Numerics.Vectors.xml
+E:\פרויקט גמר\1\csharp\BLL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\פרויקט גמר\1\csharp\BLL\obj\Debug\BLL.csproj.CopyComplete

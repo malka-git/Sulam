@@ -1,0 +1,579 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SulamModel1" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="authorizations">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="authorizationsDescription" Type="String" MaxLength="16" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="professionType" Relationship="Self.FK__professio__CodeA__440B1D61" FromRole="authorizations" ToRole="professionType" />
+  </EntityType>
+  <EntityType Name="City">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CityName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Student" Relationship="Self.FK__Student__codeCit__5812160E" FromRole="City" ToRole="Student" />
+    <NavigationProperty Name="Student1" Relationship="Self.FK__Student__codeCit__6477ECF3" FromRole="City" ToRole="Student" />
+    <NavigationProperty Name="Workers" Relationship="Self.FK__Workers__cityCod__5BE2A6F2" FromRole="City" ToRole="Workers" />
+    <NavigationProperty Name="Workers1" Relationship="Self.FK__Workers__cityCod__68487DD7" FromRole="City" ToRole="Workers" />
+  </EntityType>
+  <EntityType Name="Class">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="className" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="codeTeacher" Type="Int32" />
+    <Property Name="Theyear" Type="DateTime" Precision="0" />
+    <Property Name="CodesubstituteTeacher" Type="Int32" />
+    <Property Name="IsSubsitute" Type="Boolean" />
+    <NavigationProperty Name="Workers" Relationship="Self.FK__Class__Codesubst__4F7CD00D" FromRole="Class" ToRole="Workers" />
+    <NavigationProperty Name="Workers1" Relationship="Self.FK__Class__Codesubst__5FB337D6" FromRole="Class" ToRole="Workers" />
+    <NavigationProperty Name="Workers2" Relationship="Self.FK__Class__codeTeach__5070F446" FromRole="Class" ToRole="Workers" />
+    <NavigationProperty Name="Workers3" Relationship="Self.FK__Class__codeTeach__60A75C0F" FromRole="Class" ToRole="Workers" />
+    <NavigationProperty Name="Student" Relationship="Self.FK__Student__codeCla__59063A47" FromRole="Class" ToRole="Student" />
+    <NavigationProperty Name="Student1" Relationship="Self.FK__Student__codeCla__656C112C" FromRole="Class" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Meetings">
+    <Key>
+      <PropertyRef Name="codeMeeting" />
+    </Key>
+    <Property Name="codeMeeting" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="date" Type="DateTime" Precision="0" />
+    <Property Name="MeetingDescription" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <NavigationProperty Name="Workers" Relationship="Self.WorkersMeeting" FromRole="Meetings" ToRole="Workers" />
+  </EntityType>
+  <EntityType Name="ParameterReport">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="codeProfessionType" Type="Int32" Nullable="false" />
+    <Property Name="codeTypeReport" Type="Int32" Nullable="false" />
+    <Property Name="codeParameter" Type="Int32" Nullable="false" />
+    <Property Name="codeCurrentReport" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="TypeOfParameterToReport" Relationship="Self.FK_ParameterReport_TypeOfParameterToReport" FromRole="ParameterReport" ToRole="TypeOfParameterToReport" />
+    <NavigationProperty Name="typeReport" Relationship="Self.FK_ParameterReport_typeReport" FromRole="ParameterReport" ToRole="typeReport" />
+  </EntityType>
+  <EntityType Name="PersonalFile">
+    <Key>
+      <PropertyRef Name="codeStudent" />
+    </Key>
+    <Property Name="codeStudent" Type="Int32" Nullable="false" />
+    <Property Name="medicalBackground" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Student" Relationship="Self.FK__PersonalF__codeS__5441852A" FromRole="PersonalFile" ToRole="Student" />
+    <NavigationProperty Name="Student1" Relationship="Self.FK__PersonalF__codeS__6383C8BA" FromRole="PersonalFile" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="professionType">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nameProfession" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CodeAuthorization" Type="Int32" />
+    <NavigationProperty Name="authorizations" Relationship="Self.FK__professio__CodeA__440B1D61" FromRole="professionType" ToRole="authorizations" />
+    <NavigationProperty Name="Workers" Relationship="Self.FK__Workers__codePro__5CD6CB2B" FromRole="professionType" ToRole="Workers" />
+    <NavigationProperty Name="Workers1" Relationship="Self.FK__Workers__codePro__693CA210" FromRole="professionType" ToRole="Workers" />
+  </EntityType>
+  <EntityType Name="Report">
+    <Key>
+      <PropertyRef Name="codeCaregiver" />
+      <PropertyRef Name="codeStudent" />
+      <PropertyRef Name="dateReported" />
+    </Key>
+    <Property Name="codeCaregiver" Type="Int32" Nullable="false" />
+    <Property Name="codeStudent" Type="Int32" Nullable="false" />
+    <Property Name="report1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dateToReport" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="dateReported" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="Student" Relationship="Self.FK_Report_Student" FromRole="Report" ToRole="Student" />
+    <NavigationProperty Name="Workers" Relationship="Self.FK_Report_Workers" FromRole="Report" ToRole="Workers" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="studentName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="lastName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="codeClass" Type="Int32" />
+    <Property Name="birthDate" Type="DateTime" Precision="0" />
+    <Property Name="fatherName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="motherName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="phone" Type="String" MaxLength="9" FixedLength="false" Unicode="false" />
+    <Property Name="celPhone1" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="celPhone2" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="id" Type="String" MaxLength="9" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="codeCity" Type="Int32" />
+    <NavigationProperty Name="City" Relationship="Self.FK__Student__codeCit__5812160E" FromRole="Student" ToRole="City" />
+    <NavigationProperty Name="City1" Relationship="Self.FK__Student__codeCit__6477ECF3" FromRole="Student" ToRole="City" />
+    <NavigationProperty Name="Class" Relationship="Self.FK__Student__codeCla__59063A47" FromRole="Student" ToRole="Class" />
+    <NavigationProperty Name="Class1" Relationship="Self.FK__Student__codeCla__656C112C" FromRole="Student" ToRole="Class" />
+    <NavigationProperty Name="PersonalFile" Relationship="Self.FK__PersonalF__codeS__5441852A" FromRole="Student" ToRole="PersonalFile" />
+    <NavigationProperty Name="PersonalFile1" Relationship="Self.FK__PersonalF__codeS__6383C8BA" FromRole="Student" ToRole="PersonalFile" />
+    <NavigationProperty Name="Report" Relationship="Self.FK_Report_Student" FromRole="Student" ToRole="Report" />
+    <NavigationProperty Name="Treatment" Relationship="Self.FK__Treatment__codeS__5AEE82B9" FromRole="Student" ToRole="Treatment" />
+    <NavigationProperty Name="Treatment1" Relationship="Self.FK__Treatment__codeS__6754599E" FromRole="Student" ToRole="Treatment" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Treatment">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="codeCaregiver" Type="Int32" />
+    <Property Name="codeStudent" Type="Int32" />
+    <Property Name="treatmentDescription" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="grade" Type="Int32" />
+    <Property Name="treatmentDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Student" Relationship="Self.FK__Treatment__codeS__5AEE82B9" FromRole="Treatment" ToRole="Student" />
+    <NavigationProperty Name="Student1" Relationship="Self.FK__Treatment__codeS__6754599E" FromRole="Treatment" ToRole="Student" />
+    <NavigationProperty Name="Workers" Relationship="Self.FK__Treatment__codeC__59FA5E80" FromRole="Treatment" ToRole="Workers" />
+    <NavigationProperty Name="Workers1" Relationship="Self.FK__Treatment__codeC__66603565" FromRole="Treatment" ToRole="Workers" />
+  </EntityType>
+  <EntityType Name="TypeOfParameterToReport">
+    <Key>
+      <PropertyRef Name="CodeDescriptionParameter" />
+    </Key>
+    <Property Name="CodeDescriptionParameter" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DescriptionParameter" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="ParameterReport" Relationship="Self.FK_ParameterReport_TypeOfParameterToReport" FromRole="TypeOfParameterToReport" ToRole="ParameterReport" />
+  </EntityType>
+  <EntityType Name="typeReport">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="Int32" Nullable="false" />
+    <Property Name="discrition" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="dateOfReport" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="ParameterReport" Relationship="Self.FK_ParameterReport_typeReport" FromRole="typeReport" ToRole="ParameterReport" />
+  </EntityType>
+  <EntityType Name="Workers">
+    <Key>
+      <PropertyRef Name="Code" />
+    </Key>
+    <Property Name="Code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="workerName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="workerLastName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="codeProfession" Type="Int32" />
+    <Property Name="birthdate" Type="DateTime" Precision="0" />
+    <Property Name="cityCode" Type="Int32" />
+    <Property Name="emailAdress" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="City" Relationship="Self.FK__Workers__cityCod__5BE2A6F2" FromRole="Workers" ToRole="City" />
+    <NavigationProperty Name="City1" Relationship="Self.FK__Workers__cityCod__68487DD7" FromRole="Workers" ToRole="City" />
+    <NavigationProperty Name="Class" Relationship="Self.FK__Class__Codesubst__4F7CD00D" FromRole="Workers" ToRole="Class" />
+    <NavigationProperty Name="Class1" Relationship="Self.FK__Class__Codesubst__5FB337D6" FromRole="Workers" ToRole="Class" />
+    <NavigationProperty Name="Class2" Relationship="Self.FK__Class__codeTeach__5070F446" FromRole="Workers" ToRole="Class" />
+    <NavigationProperty Name="Class3" Relationship="Self.FK__Class__codeTeach__60A75C0F" FromRole="Workers" ToRole="Class" />
+    <NavigationProperty Name="professionType" Relationship="Self.FK__Workers__codePro__5CD6CB2B" FromRole="Workers" ToRole="professionType" />
+    <NavigationProperty Name="professionType1" Relationship="Self.FK__Workers__codePro__693CA210" FromRole="Workers" ToRole="professionType" />
+    <NavigationProperty Name="Report" Relationship="Self.FK_Report_Workers" FromRole="Workers" ToRole="Report" />
+    <NavigationProperty Name="Treatment" Relationship="Self.FK__Treatment__codeC__59FA5E80" FromRole="Workers" ToRole="Treatment" />
+    <NavigationProperty Name="Treatment1" Relationship="Self.FK__Treatment__codeC__66603565" FromRole="Workers" ToRole="Treatment" />
+    <NavigationProperty Name="Meetings" Relationship="Self.WorkersMeeting" FromRole="Workers" ToRole="Meetings" />
+  </EntityType>
+  <Association Name="FK__professio__CodeA__440B1D61">
+    <End Role="authorizations" Type="Self.authorizations" Multiplicity="0..1" />
+    <End Role="professionType" Type="Self.professionType" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="authorizations">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="professionType">
+        <PropertyRef Name="CodeAuthorization" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__codeCit__5812160E">
+    <End Role="City" Type="Self.City" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="codeCity" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__codeCit__6477ECF3">
+    <End Role="City" Type="Self.City" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="codeCity" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Workers__cityCod__5BE2A6F2">
+    <End Role="City" Type="Self.City" Multiplicity="0..1" />
+    <End Role="Workers" Type="Self.Workers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Workers">
+        <PropertyRef Name="cityCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Workers__cityCod__68487DD7">
+    <End Role="City" Type="Self.City" Multiplicity="0..1" />
+    <End Role="Workers" Type="Self.Workers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="City">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Workers">
+        <PropertyRef Name="cityCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Class__Codesubst__4F7CD00D">
+    <End Role="Workers" Type="Self.Workers" Multiplicity="0..1" />
+    <End Role="Class" Type="Self.Class" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Workers">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Class">
+        <PropertyRef Name="CodesubstituteTeacher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Class__Codesubst__5FB337D6">
+    <End Role="Workers" Type="Self.Workers" Multiplicity="0..1" />
+    <End Role="Class" Type="Self.Class" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Workers">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Class">
+        <PropertyRef Name="CodesubstituteTeacher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Class__codeTeach__5070F446">
+    <End Role="Workers" Type="Self.Workers" Multiplicity="0..1" />
+    <End Role="Class" Type="Self.Class" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Workers">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Class">
+        <PropertyRef Name="codeTeacher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Class__codeTeach__60A75C0F">
+    <End Role="Workers" Type="Self.Workers" Multiplicity="0..1" />
+    <End Role="Class" Type="Self.Class" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Workers">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Class">
+        <PropertyRef Name="codeTeacher" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__codeCla__59063A47">
+    <End Role="Class" Type="Self.Class" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Class">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="codeClass" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__codeCla__656C112C">
+    <End Role="Class" Type="Self.Class" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Class">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="codeClass" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ParameterReport_TypeOfParameterToReport">
+    <End Role="TypeOfParameterToReport" Type="Self.TypeOfParameterToReport" Multiplicity="1" />
+    <End Role="ParameterReport" Type="Self.ParameterReport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TypeOfParameterToReport">
+        <PropertyRef Name="CodeDescriptionParameter" />
+      </Principal>
+      <Dependent Role="ParameterReport">
+        <PropertyRef Name="codeParameter" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ParameterReport_typeReport">
+    <End Role="typeReport" Type="Self.typeReport" Multiplicity="1" />
+    <End Role="ParameterReport" Type="Self.ParameterReport" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="typeReport">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="ParameterReport">
+        <PropertyRef Name="codeTypeReport" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PersonalF__codeS__5441852A">
+    <End Role="Student" Type="Self.Student" Multiplicity="1" />
+    <End Role="PersonalFile" Type="Self.PersonalFile" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="PersonalFile">
+        <PropertyRef Name="codeStudent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__PersonalF__codeS__6383C8BA">
+    <End Role="Student" Type="Self.Student" Multiplicity="1" />
+    <End Role="PersonalFile" Type="Self.PersonalFile" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="PersonalFile">
+        <PropertyRef Name="codeStudent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Workers__codePro__5CD6CB2B">
+    <End Role="professionType" Type="Self.professionType" Multiplicity="0..1" />
+    <End Role="Workers" Type="Self.Workers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="professionType">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Workers">
+        <PropertyRef Name="codeProfession" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Workers__codePro__693CA210">
+    <End Role="professionType" Type="Self.professionType" Multiplicity="0..1" />
+    <End Role="Workers" Type="Self.Workers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="professionType">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Workers">
+        <PropertyRef Name="codeProfession" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Report_Student">
+    <End Role="Student" Type="Self.Student" Multiplicity="1" />
+    <End Role="Report" Type="Self.Report" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="Report">
+        <PropertyRef Name="codeStudent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Report_Workers">
+    <End Role="Workers" Type="Self.Workers" Multiplicity="1" />
+    <End Role="Report" Type="Self.Report" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Workers">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Report">
+        <PropertyRef Name="codeCaregiver" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Treatment__codeS__5AEE82B9">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="Treatment" Type="Self.Treatment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="Treatment">
+        <PropertyRef Name="codeStudent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Treatment__codeS__6754599E">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="Treatment" Type="Self.Treatment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="Treatment">
+        <PropertyRef Name="codeStudent" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Treatment__codeC__59FA5E80">
+    <End Role="Workers" Type="Self.Workers" Multiplicity="0..1" />
+    <End Role="Treatment" Type="Self.Treatment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Workers">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Treatment">
+        <PropertyRef Name="codeCaregiver" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Treatment__codeC__66603565">
+    <End Role="Workers" Type="Self.Workers" Multiplicity="0..1" />
+    <End Role="Treatment" Type="Self.Treatment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Workers">
+        <PropertyRef Name="Code" />
+      </Principal>
+      <Dependent Role="Treatment">
+        <PropertyRef Name="codeCaregiver" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="WorkersMeeting">
+    <End Role="Meetings" Type="Self.Meetings" Multiplicity="*" />
+    <End Role="Workers" Type="Self.Workers" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="SulamEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="authorizations" EntityType="Self.authorizations" />
+    <EntitySet Name="City" EntityType="Self.City" />
+    <EntitySet Name="Class" EntityType="Self.Class" />
+    <EntitySet Name="Meetings" EntityType="Self.Meetings" />
+    <EntitySet Name="ParameterReport" EntityType="Self.ParameterReport" />
+    <EntitySet Name="PersonalFile" EntityType="Self.PersonalFile" />
+    <EntitySet Name="professionType" EntityType="Self.professionType" />
+    <EntitySet Name="Report" EntityType="Self.Report" />
+    <EntitySet Name="Student" EntityType="Self.Student" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Treatment" EntityType="Self.Treatment" />
+    <EntitySet Name="TypeOfParameterToReport" EntityType="Self.TypeOfParameterToReport" />
+    <EntitySet Name="typeReport" EntityType="Self.typeReport" />
+    <EntitySet Name="Workers" EntityType="Self.Workers" />
+    <AssociationSet Name="FK__professio__CodeA__440B1D61" Association="Self.FK__professio__CodeA__440B1D61">
+      <End Role="authorizations" EntitySet="authorizations" />
+      <End Role="professionType" EntitySet="professionType" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__codeCit__5812160E" Association="Self.FK__Student__codeCit__5812160E">
+      <End Role="City" EntitySet="City" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__codeCit__6477ECF3" Association="Self.FK__Student__codeCit__6477ECF3">
+      <End Role="City" EntitySet="City" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Workers__cityCod__5BE2A6F2" Association="Self.FK__Workers__cityCod__5BE2A6F2">
+      <End Role="City" EntitySet="City" />
+      <End Role="Workers" EntitySet="Workers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Workers__cityCod__68487DD7" Association="Self.FK__Workers__cityCod__68487DD7">
+      <End Role="City" EntitySet="City" />
+      <End Role="Workers" EntitySet="Workers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Class__Codesubst__4F7CD00D" Association="Self.FK__Class__Codesubst__4F7CD00D">
+      <End Role="Workers" EntitySet="Workers" />
+      <End Role="Class" EntitySet="Class" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Class__Codesubst__5FB337D6" Association="Self.FK__Class__Codesubst__5FB337D6">
+      <End Role="Workers" EntitySet="Workers" />
+      <End Role="Class" EntitySet="Class" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Class__codeTeach__5070F446" Association="Self.FK__Class__codeTeach__5070F446">
+      <End Role="Workers" EntitySet="Workers" />
+      <End Role="Class" EntitySet="Class" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Class__codeTeach__60A75C0F" Association="Self.FK__Class__codeTeach__60A75C0F">
+      <End Role="Workers" EntitySet="Workers" />
+      <End Role="Class" EntitySet="Class" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__codeCla__59063A47" Association="Self.FK__Student__codeCla__59063A47">
+      <End Role="Class" EntitySet="Class" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__codeCla__656C112C" Association="Self.FK__Student__codeCla__656C112C">
+      <End Role="Class" EntitySet="Class" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ParameterReport_TypeOfParameterToReport" Association="Self.FK_ParameterReport_TypeOfParameterToReport">
+      <End Role="TypeOfParameterToReport" EntitySet="TypeOfParameterToReport" />
+      <End Role="ParameterReport" EntitySet="ParameterReport" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ParameterReport_typeReport" Association="Self.FK_ParameterReport_typeReport">
+      <End Role="typeReport" EntitySet="typeReport" />
+      <End Role="ParameterReport" EntitySet="ParameterReport" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PersonalF__codeS__5441852A" Association="Self.FK__PersonalF__codeS__5441852A">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="PersonalFile" EntitySet="PersonalFile" />
+    </AssociationSet>
+    <AssociationSet Name="FK__PersonalF__codeS__6383C8BA" Association="Self.FK__PersonalF__codeS__6383C8BA">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="PersonalFile" EntitySet="PersonalFile" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Workers__codePro__5CD6CB2B" Association="Self.FK__Workers__codePro__5CD6CB2B">
+      <End Role="professionType" EntitySet="professionType" />
+      <End Role="Workers" EntitySet="Workers" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Workers__codePro__693CA210" Association="Self.FK__Workers__codePro__693CA210">
+      <End Role="professionType" EntitySet="professionType" />
+      <End Role="Workers" EntitySet="Workers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Report_Student" Association="Self.FK_Report_Student">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="Report" EntitySet="Report" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Report_Workers" Association="Self.FK_Report_Workers">
+      <End Role="Workers" EntitySet="Workers" />
+      <End Role="Report" EntitySet="Report" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Treatment__codeS__5AEE82B9" Association="Self.FK__Treatment__codeS__5AEE82B9">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="Treatment" EntitySet="Treatment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Treatment__codeS__6754599E" Association="Self.FK__Treatment__codeS__6754599E">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="Treatment" EntitySet="Treatment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Treatment__codeC__59FA5E80" Association="Self.FK__Treatment__codeC__59FA5E80">
+      <End Role="Workers" EntitySet="Workers" />
+      <End Role="Treatment" EntitySet="Treatment" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Treatment__codeC__66603565" Association="Self.FK__Treatment__codeC__66603565">
+      <End Role="Workers" EntitySet="Workers" />
+      <End Role="Treatment" EntitySet="Treatment" />
+    </AssociationSet>
+    <AssociationSet Name="WorkersMeeting" Association="Self.WorkersMeeting">
+      <End Role="Meetings" EntitySet="Meetings" />
+      <End Role="Workers" EntitySet="Workers" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

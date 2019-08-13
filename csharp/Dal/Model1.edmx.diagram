@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="0dfbb9b9ca644523b4a574eae622a442" Name="Diagram1" ZoomLevel="34">
+        <EntityTypeShape EntityType="SulamModel.authorizations" Width="1.5" PointX="1.5" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SulamModel.City" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SulamModel.Class" Width="1.5" PointX="8.25" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="SulamModel.Meetings" Width="1.5" PointX="3.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SulamModel.ParameterReport" Width="1.5" PointX="13" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="SulamModel.PersonalFile" Width="1.5" PointX="5.25" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SulamModel.professionType" Width="1.5" PointX="3.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SulamModel.Report" Width="1.5" PointX="11.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SulamModel.Student" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SulamModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SulamModel.Treatment" Width="1.5" PointX="8.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SulamModel.TypeOfParameterToReport" Width="1.5" PointX="10.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="SulamModel.typeReport" Width="1.5" PointX="10.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SulamModel.Workers" Width="1.5" PointX="6" PointY="6.25" IsExpanded="true" />
+        <AssociationConnector Association="SulamModel.FK__professio__CodeA__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__Student__codeCit__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__Student__codeCit__6477ECF3" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__Workers__cityCod__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__Workers__cityCod__68487DD7" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__Class__Codesubst__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__Class__Codesubst__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__Class__codeTeach__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__Class__codeTeach__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__Student__codeCla__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__Student__codeCla__656C112C" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK_ParameterReport_TypeOfParameterToReport" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK_ParameterReport_typeReport" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__PersonalF__codeS__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__PersonalF__codeS__6383C8BA" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__Workers__codePro__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__Workers__codePro__693CA210" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK_Report_Student" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK_Report_Workers" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__Treatment__codeS__5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__Treatment__codeS__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__Treatment__codeC__59FA5E80" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.FK__Treatment__codeC__66603565" ManuallyRouted="false" />
+        <AssociationConnector Association="SulamModel.WorkersMeeting" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
